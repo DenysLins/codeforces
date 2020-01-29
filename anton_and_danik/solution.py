@@ -4,14 +4,14 @@ s = input().strip()
 a, d = 0, 0
 
 for i in s:
-  if i == 'A':
-    a += 1
-  else:
-    d += 1
+    if i == 'A':
+        a += 1
+    else:
+        d += 1
 
 if a > d:
-  print('Anton')
+    print('Anton')
 elif d > a:
-  print('Danik')
+    print('Danik')
 else:
-  print('Friendship')
+    print('Friendship')
